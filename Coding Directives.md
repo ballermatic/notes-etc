@@ -38,7 +38,7 @@
 
   * Incorrect: src/components/LoginForm.tsx, src/hooks/use-auth.ts
 
-* FS-2 (Colocation): Components, hooks, functions, etc should be colocated with their feature or page.tsx file.
+* FS-2 (Colocation): Components, hooks, functions, etc should be colocated with their feature or page.tsx file. Complex features and components can have local readme.md, remember to link to them in root README.md
 
 * FS-3 (UI Components): Truly reusable, "dumb" UI elements (Button, Input, Card) belong in src/components/ui/. These are most often shadcn or headless-ui based, but may be custom.
 
